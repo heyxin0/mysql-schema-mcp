@@ -6,6 +6,8 @@
 
 借助 MySQL Schema MCP，AI 不再需要依赖模糊推断来理解数据库，而是能够基于真实的 Schema 上下文执行 SQL 生成、结构分析、开发辅助和数据问答等任务，从而显著提升结果的准确性与可用性。
 
+当前工具还提供最小表级 DDL 能力：创建表、修改表，以及需要显式确认的删除表操作。
+
 ### 核心价值
 
 - 让 AI 基于真实数据库结构进行理解和推理
@@ -34,6 +36,8 @@
 **MySQL Schema MCP** is a schema access module designed for MySQL databases, built on the **MCP (Model Context Protocol)** standard. It exposes metadata such as table structures, column definitions, index information, and primary/foreign key relationships in a unified, standardized, and secure way for large language models and intelligent agents.
 
 With MySQL Schema MCP, AI no longer has to rely on guesswork to understand a database. Instead, it can work from the actual schema context to perform tasks such as SQL generation, schema analysis, development assistance, and database Q&A, significantly improving accuracy and usability.
+
+The current tools also provide minimal table-level DDL support: creating tables, altering tables, and dropping tables with explicit confirmation.
 
 ### Core Value
 
